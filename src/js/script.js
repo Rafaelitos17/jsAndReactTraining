@@ -1,25 +1,15 @@
 "use strict"
 
-let number = 4.6;
-console.log (4.6/0);
-console.log ('string'*6)
-const persone = "Alex";
+// // alert('hello world!');
+// // const result = confirm("Are you here?");
 
-const bool = true;
+// const answer = +prompt("Вам есть 18?", "18");
+// console.log (answer + 15);
 
-console.log (something);
+const answers = [];
 
-let und;
-console.log(und);
+answers[0] = prompt("Как ваше имя? ", "");
+answers[1] = prompt("Как ваша фамилия? ", "");
+answers[2] = prompt("Сколько вам лет?", "");
 
-
-const obj = {
-    name: "John",
-    age: 25,
-    isMarried: false
-}
-
-console.log(obj.name);
-
-let arr = ['plum.png', 'orange.jpeg', 6 , 'apple.bmp', {}, []]
-console.log(arr[1])
+console.log(typeof(answers))
