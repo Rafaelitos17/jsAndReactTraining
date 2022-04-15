@@ -68,22 +68,26 @@
 
 // writeYourGenres ();
 
-const options = {
-    name: 'test',
-    width: 1024,
-    height: 1024,
-    colors: {
-        border: 'black',
-        bg: 'red'
-    }
-};
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         bg: 'red'
+//     }
+// };
 
-for (let key in options) {
-    if (typeof(options[key]) === "object") {
-        for (let i in options[key]) {
-            console.log(`Значение ${i} будет ${options[key][i]}`);
-            }
-        } else {
-            console.log(`Значение ${key} будет ${options[key]}`);
-        }
-}
+// for (let key in options) {
+//     if (typeof(options[key]) === "object") {
+//         for (let i in options[key]) {
+//             console.log(`Значение ${i} будет ${options[key][i]}`);
+//             }
+//         } else {
+//             console.log(`Значение ${key} будет ${options[key]}`);
+//         }
+// 
+
+// const myStr = "Rafael";
+// let myStrLetter = myStr.length
+// console.log(myStrLetter);
