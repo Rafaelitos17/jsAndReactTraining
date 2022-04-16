@@ -1,16 +1,16 @@
-// "use strict"
+"use strict"
 
-// let numberOfFilms;
+let numberOfFilms;
 
-// function start() {
-//     numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+function start() {
+    numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-//     while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
-//         numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
-//     }
-// }
+    while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
+        numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+    }
+}
 
-// start();
+start();
 
 // const personalMovieDB = {
 //     count: numberOfFilms,
