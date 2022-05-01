@@ -1,50 +1,36 @@
-// let myArray = [
-//     [1, 2, 3],
-//     [4, 5, 6]
-//     [7, 8, 9],
-//     [[10, 11, 12], 13, 14],
-//   ];
+// import React from "react";
 
-//   const myData = myArray[2][1];
-//   const arr = [
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9],
-//     [[10, 11, 12], 13, 14]
-// //   ];
-
-// const myArray = [
-//   ["John", 23],
-//   ["cat", 2]
-// ];
-// const removedFromMyArray = myArray.pop(0);
-
-// console.log(removedFromMyArray);
-// console.log(myArray);
-
-
-// let i = 30;
-// while (i > 0 ) {
-//   console.log(i);
-//   i--;
-// // }
-// let arr = [1, 2, 3, 4, 5];
-
-// let result = arr.map(function(elem ) {
-// 	console.log(elem); // последовательно выведет 1, 2, 3, 4, 5
-// });
-// console.log(arr);
-
-
-// Дан массив с числами. Используя метод map извлеките из каждого элемента массива квадратный корень и запишите результат в новый массив.
-// let arr = [4, 9, 16, 25];
-// let result = arr.map(function(elem) {
-//   return Math.sqrt(elem);
-// });
-
-// console.log(result);
-// function sum (a, b) {
-//   return a * b;
+// type TodolistPropsType = {
+//     title?: string
+//     name?: number
+//     tasks: Array<inArrayType>
 // }
 
-// console.log(sum(4, 5));
+// type inArrayType = {
+//     id: number
+//     title: string
+//     isDone: boolean
+// }
+
+// export const Todolist = (props:TodolistPropsType) => {
+
+//     return (
+//         <div>
+//             <h3>{props.title}</h3>
+//             <div>
+//                 <input/>
+//                 <button>+</button>
+//             </div>
+//             <ul>
+//                 <li><input type="checkbox" checked={props.tasks[0].isDone}/> <span>{props.tasks[0].title}</span></li>
+//                 <li><input type="checkbox" checked={props.tasks[1].isDone}/> <span>{props.tasks[1].title}</span></li>
+//                 <li><input type="checkbox" checked={props.tasks[2].isDone}/> <span>{props.tasks[2].title}</span></li>
+//             </ul>
+//             <div>
+//                 <button>All</button>
+//                 <button>Active</button>
+//                 <button>Completed</button>
+//             </div>
+//         </div>
+// )
+// }
